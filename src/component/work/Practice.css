@@ -1,0 +1,56 @@
+.form{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding:50px 20px;
+}
+.form input{
+    padding: 8px 60px;
+    padding-left: 20px;
+    margin:10px 10px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: text-shadow 0.3s linear 0.1s;
+    transition: box-shadow 0.3s linear 0.1s;
+}
+.form input:hover{
+    box-shadow: 1px 1px 60px 1px white;
+    transition: text-shadow 0.3s linear 0.1s;
+    transition: box-shadow 0.3s linear 0.1s;
+}
+#mail{
+    text-transform: lowercase;
+}
+#submit{
+    padding:10px 110px ;
+    background-color:blue;
+    color: white;
+    transition: text-shadow 0.3s linear 0.1s;
+    transition: box-shadow 0.3s linear 0.1s;
+}
+#submit:hover{
+    box-shadow: 1px 1px 20px 5px white;
+    text-shadow: 1px 1px 10px black;
+    transition: text-shadow 0.3s linear 0.1s;
+    transition: box-shadow 0.3s linear 0.1s;
+}
+#feedback{
+    padding:10px 100px;
+    transition: box-shadow 0.3s linear 0.1s;
+}
+#feedback:hover{
+    box-shadow:1px 1px 30px 5px white;
+    transition: box-shadow 0.3s linear 0.1s;
+}
+textarea{
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}

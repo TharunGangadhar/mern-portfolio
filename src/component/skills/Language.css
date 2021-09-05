@@ -1,0 +1,29 @@
+.language{
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background:url('https://images.unsplash.com/photo-1508921340878-ba53e1f016ec?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d2VifGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60') no-repeat center center/cover;
+    padding:10px 20px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s linear 0.1s;
+
+}
+.language:hover{
+    box-shadow:1px 1px 10px 10px white ;
+    transition: box-shadow 0.3s linear 0.1s;
+
+}
+.language h1{
+    color: rgb(46, 7, 221);
+}
+.language p{
+    color: rgb(58, 37, 37);
+    font-size:16px;
+    font-weight: bold;
+
+}
+.language p:hover{
+    text-shadow: 1px 1px 10px whitesmoke;
+    transition: text-shadow 0.3s linear 0.1s;
+}

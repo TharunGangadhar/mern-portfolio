@@ -1,0 +1,16 @@
+.gitview{
+    margin: 10px;
+    transition: box-shadow 0.1s linear 0.1s;
+
+}
+.gitview:hover{
+    box-shadow: 1px 1px 10px 10px white;
+    transition: box-shadow 0.1s linear 0.1s;
+}
+#gitview h2{
+    text-transform: uppercase;
+}
+#gitview a{
+    text-decoration: none;
+    color: white;
+}

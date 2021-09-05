@@ -1,0 +1,9 @@
+#button{
+    margin: 0px 10px;
+    transition: box-shadow 0.2s linear 0.1s;
+    padding: 10px;
+}
+#button:hover{
+    transition: box-shadow 0.2s linear 0.1s;
+    box-shadow: 1px 1px 20px 5px black;
+}

@@ -1,0 +1,25 @@
+.skills{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background:url('https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2tpbGx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60') no-repeat center center/cover;
+    height: 90vh;
+}
+.skills h3{
+    color: white;
+    font-size:20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: text-shadow 0.3s ease 0.1s;
+
+}
+.skills h3:hover{
+    text-shadow: 1px 1px 10px white;
+    transition: text-shadow 0.3s ease 0.1s;
+}
+.skill-list{
+    display: flex;
+    align-self: center;
+    margin:10px ;
+}
